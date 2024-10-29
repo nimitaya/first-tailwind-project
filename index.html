@@ -11,7 +11,7 @@
     <!DOCTYPE html>
 <html lang="en">
 
-<body>
+<body class="bg-slate-50 dark:bg-slate-900">
     <header class="bg-purple-900 text-white sticky top-0 z-10">
         <div class="flex justify-between items-center max-w-6xl mx-auto p-4">
 
@@ -37,18 +37,18 @@
         <!-- ***************** -->
         <section id="hero" class="flex flex-col-reverse sm:flex-row gap-8 p-6 justify-center items-center mb-12">
             <article class="sm:w-1/2">
-                <h1 class="text-4xl sm:text-5xl font-bold text-center sm:text-left max-w-md text-slate-900 mb-10">
+                <h1 class="text-4xl sm:text-5xl font-bold text-center sm:text-left max-w-md text-slate-900 dark:text-white mb-10">
                     We build
-                    <span class="text-violet-700">Amazing AI-Powered
+                    <span class="text-violet-700 dark:text-amber-400">Amazing AI-Powered
                     </span>
                     apps...
                 </h1>
-                <p class="max-w-md text-2xl text-center sm:text-left text-slate-700 mb-8">
+                <p class="max-w-md text-2xl text-center sm:text-left text-slate-700 dark:text-slate-400 mb-8">
                     At Rocket.IO we build next generation apps today. From AI to
                     Blockchain, we've got you covered...
                 </p>
                 <div class="flex justify-center sm:justify-start">
-                    <a href="#contact" class="bg-purple-900 p-3 text-white w-48 text-2xl text-center rounded-lg border border-solid border-slate-900 hover:bg-violet-300 hover:text-indigo-700 hover:scale-110 transition ease-in-out duration-300">
+                    <a href="#contact" class="bg-purple-900 p-3 text-white w-48 text-2xl text-center rounded-lg border border-solid border-slate-900 dark:border-none hover:bg-violet-300 hover:text-indigo-700 hover:scale-110 transition ease-in-out duration-300">
                         Contact Us
                     </a>
                 </div>
@@ -62,41 +62,41 @@
         <!-- Features -->
         <!-- ***************** -->
         <section id="rockets" class="p-6 my-12 scroll-mt-40 sm:scroll-mt-20">
-            <h2 class="text-4xl sm:text-5xl font-bold text-center mb-6 text-slate-900">
+            <h2 class="text-4xl sm:text-5xl font-bold text-center mb-6 text-slate-900 dark:text-white">
                 Our Apps
             </h2>
             <div class="my-12 mx-auto flex flex-col sm:flex-row items-center gap-8">
-                <article class="w-2/3 sm:w-5/6 flex flex-col items-center border-2 border-solid border-slate-900 py-6 px-2 rounded-3xl shadow-xl cursor-pointer transition hover:shadow-purple-900">
+                <article class="w-2/3 sm:w-5/6 flex flex-col items-center border-2 border-solid border-slate-900 dark:bg-black dark:border-gray-100 py-6 px-2 rounded-3xl shadow-xl cursor-pointer transition hover:shadow-purple-900">
                     <img src="./assets/rocketride.png" alt="rocket ride image" class="w-1/2 mb-6"/>
 
-                    <h3 class="text-3xl text-slate-900 mb-2">
+                    <h3 class="text-3xl text-slate-900 dark:text-amber-400 mb-2">
                         Innovative
                     </h3>
 
-                    <p class="text-2xl text-slate-500">
+                    <p class="text-2xl text-slate-500 dark:text-slate-400">
                         Next Gen
                     </p>
                 </article>
-                <article class="w-2/3 sm:w-5/6 flex flex-col items-center border-2 border-solid border-slate-900 py-6 px-2 rounded-3xl shadow-xl cursor-pointer transition hover:shadow-purple-900">
+                <article class="w-2/3 sm:w-5/6 flex flex-col items-center border-2 border-solid border-slate-900 dark:bg-black dark:border-gray-100 py-6 px-2 rounded-3xl shadow-xl cursor-pointer transition hover:shadow-purple-900">
                     <img src="./assets/rocketman.png" alt="rocket man image" class="w-1/2 mb-6"/>
 
-                    <h3 class="text-3xl text-slate-900 mb-2">
+                    <h3 class="text-3xl text-slate-900 dark:text-amber-400 mb-2">
                         AI Powered
                     </h3>
 
-                    <p class="text-2xl text-slate-500">
+                    <p class="text-2xl text-slate-500 dark:text-slate-400">
                         Best Seller!
                     </p>
                 </article>
 
-                <article class="w-2/3 sm:w-5/6 flex flex-col items-center border-2 border-solid border-slate-900 py-6 px-2 rounded-3xl shadow-xl cursor-pointer transition hover:shadow-purple-900">
+                <article class="w-2/3 sm:w-5/6 flex flex-col items-center border-2 border-solid border-slate-900 dark:bg-black dark:border-gray-100 py-6 px-2 rounded-3xl shadow-xl cursor-pointer transition hover:shadow-purple-900">
                     <img src="./assets/rocketlaunch.png" alt="rocket launch image" class="w-1/2 mb-6"/>
 
-                    <h3 class="text-3xl text-center text-slate-900 mb-2">
+                    <h3 class="text-3xl text-center text-slate-900 dark:text-amber-400 mb-2">
                         High Performance
                     </h3>
 
-                    <p class="text-2xl text-slate-500">
+                    <p class="text-2xl text-slate-500 dark:text-slate-400">
                         Top Rated!
                     </p>
                 </article>
@@ -110,40 +110,42 @@
         <!-- ***************** -->
 
         <section id="testimonials" class="p-6 my-12 scroll-mt-40 sm:scroll-mt-20 widescreen:section-min-height tallscreen:section-min-height">
-            <h2 class="text-4xl sm:text-5xl font-bold text-center mb-6 text-slate-900">
+            <h2 class="text-4xl sm:text-5xl font-bold text-center mb-6 text-slate-900 dark:text-white">
                 Testimonials
             </h2>
             <figure class="my-12">
-                <blockquote class="bg-purple-900 pl-14 pr-8 py-12 rounded-3xl relative">
-                    <p class="text-2xl sm:text-3xl text-left mt-2 text-white before:content-['\201C'] before:font-serif before:absolute before:text-white before:left-0 before:top-0 before:text-9xl before:opacity-25 before:transform before:translate-x-2 before:translate-y-2 after:content-['\201D'] after:font-serif after:absolute after:text-white after:right-0 after:-bottom-20 after:text-9xl after:opacity-25 after:transform after:-translate-x-2 after:-translate-y-5">
+                <blockquote class="bg-purple-900 dark:bg-black pl-14 pr-8 py-12 rounded-3xl relative">
+                    <p class="text-2xl sm:text-3xl text-left mt-2 text-white dark:text-slate-400 before:content-['\201C'] before:font-serif before:absolute before:text-white before:left-0 before:top-0 before:text-9xl before:opacity-25 before:transform before:translate-x-2 before:translate-y-2 after:content-['\201D'] after:font-serif after:absolute after:text-white after:right-0 after:-bottom-20 after:text-9xl after:opacity-25 after:transform after:-translate-x-2 after:-translate-y-5">
                         Using Rocket.IO has been a game changer for our business. We've
                         seen a <span class="italic">300% increase </span> in sales since
                         we started using it!
                     </p>
                 </blockquote>
-                <figcaption class="italic text xl sm:text-2xl text-right mt-2 text-slate-500">
+                <figcaption class="italic text xl sm:text-2xl text-right mt-2 text-slate-500 dark:text-slate-400">
                     &#8212; CEO, ALL2Code GmbH
                 </figcaption>
             </figure>
+
             <figure class="my-12">
-                <blockquote class="bg-purple-900 pl-14 pr-8 py-12 rounded-3xl relative">
-                    <p class="text-2xl sm:text-3xl text-left mt-2 text-white before:content-['\201C'] before:font-serif before:absolute before:text-white before:left-0 before:top-0 before:text-9xl before:opacity-25 before:transform before:translate-x-2 before:translate-y-2 after:content-['\201D'] after:font-serif after:absolute after:text-white after:right-0 after:-bottom-20 after:text-9xl after:opacity-25 after:transform after:-translate-x-2 after:-translate-y-5">
+                <blockquote class="bg-purple-900 dark:bg-black pl-14 pr-8 py-12 rounded-3xl relative">
+                    <p class="text-2xl sm:text-3xl text-left mt-2 text-white dark:text-slate-400 before:content-['\201C'] before:font-serif before:absolute before:text-white before:left-0 before:top-0 before:text-9xl before:opacity-25 before:transform before:translate-x-2 before:translate-y-2 after:content-['\201D'] after:font-serif after:absolute after:text-white after:right-0 after:-bottom-20 after:text-9xl after:opacity-25 after:transform after:-translate-x-2 after:-translate-y-5">
                         Business has never been better since we started using Rocket.IO.
                         Our customers love it and we love it too! It's a win-win!
                     </p>
                 </blockquote>
-                <figcaption class="italic text xl sm:text-2xl text-right mt-2 text-slate-500">
+                <figcaption class="italic text xl sm:text-2xl text-right mt-2 text-slate-500 dark:text-slate-400">
                     &#8212; Regional Manager, CurryCoders GmbH
                 </figcaption>
             </figure>
+
             <figure class="my-12">
-                <blockquote class="bg-purple-900 pl-14 pr-8 py-12 rounded-3xl relative">
-                    <p class="text-2xl sm:text-3xl text-left mt-2 text-white before:content-['\201C'] before:font-serif before:absolute before:text-white before:left-0 before:top-0 before:text-9xl before:opacity-25 before:transform before:translate-x-2 before:translate-y-2 after:content-['\201D'] after:font-serif after:absolute after:text-white after:right-0 after:-bottom-20 after:text-9xl after:opacity-25 after:transform after:-translate-x-2 after:-translate-y-5">
+                <blockquote class="bg-purple-900 dark:bg-black pl-14 pr-8 py-12 rounded-3xl relative">
+                    <p class="text-2xl sm:text-3xl text-left mt-2 text-white dark:text-slate-400 before:content-['\201C'] before:font-serif before:absolute before:text-white before:left-0 before:top-0 before:text-9xl before:opacity-25 before:transform before:translate-x-2 before:translate-y-2 after:content-['\201D'] after:font-serif after:absolute after:text-white after:right-0 after:-bottom-20 after:text-9xl after:opacity-25 after:transform after:-translate-x-2 after:-translate-y-5">
                         Rocket.IO is the best! I can't believe I didn't start using it
                         sooner! Life changing! I'm a Rocket.IO customer for life!
                     </p>
                 </blockquote>
-                <figcaption class="italic text xl sm:text-2xl text-right mt-2 text-slate-500">
+                <figcaption class="italic text xl sm:text-2xl text-right mt-2 text-slate-500 dark:text-slate-400">
                     &#8212; Max Mustermann, Genius
                 </figcaption>
             </figure>
@@ -156,17 +158,17 @@
         <!-- ***************** -->
 
         <section id="contact" class="p-6 my-12 scroll-mt-40 sm:scroll-mt-20">
-            <h2 class="text-4xl sm:text-5xl font-bold text-center mb-6 text-slate-900">
+            <h2 class="text-4xl sm:text-5xl font-bold text-center mb-6 text-slate-900 dark:text-white">
                 Contact Us
             </h2>
             <form name="contact" netlify action="" class="max-w-6xl mx-auto text-2xl sm:text-3xl flex flex-col items-left gap-4">
-                <label for="subject">Subject:</label>
+                <label for="subject" class="dark:text-white">Subject:</label>
                 <input type="text" id="subject" name="subject" required minlength="3" maxlength="60" 
-                placeholder="Your Subject" class="w-full text-black text-2xl sm:text-3xl p-3 rounded-xl border border-solid border-slate-900"/>
-                <label for="message">Message:</label>
+                placeholder="Your Subject" class="w-full text-black text-2xl sm:text-3xl p-3 rounded-xl border border-solid border-slate-900 dark:border-none dark:bg-slate-700"/>
+                <label for="message" class="dark:text-white">Message:</label>
                 <textarea type="text" name="message" id="message" cols="30" rows="10"
-                    placeholder="Your Message" required class="w-full text-black text-2xl sm:text-3xl p-3 rounded-xl border border-solid border-slate-900"></textarea>
-                <button type="submit" class="bg-violet-700 hover:bg-violet-600 active:bg-violet-500 text-white p-3 w-48 rounded-xl border border-solid border-slate-900">
+                    placeholder="Your Message" required class="w-full text-black text-2xl sm:text-3xl p-3 rounded-xl border border-solid border-slate-900 dark:border-none dark:bg-slate-700"></textarea>
+                <button type="submit" class="bg-purple-900 hover:bg-violet-300 hover:text-indigo-700 active:bg-violet-500 text-white p-3 w-48 rounded-xl border border-solid border-slate-900 dark:border-none transition ease-in-out duration-300">
                     Submit
                 </button>
             </form>
